@@ -1,24 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<title>Boulangerie-pâtisserie D'Or — maquette en préparation</title>
-<style>
-  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
-       background:#faf8f4;color:#1d1c1a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-  .box{max-width:520px;padding:32px;text-align:center}
-  h1{font-family:Georgia,serif;font-size:22px;margin:0 0 12px}
-  p{color:#54504a;line-height:1.6;margin:0 0 8px;font-size:15px}
-  small{color:#8a8575;font-size:12px}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#37261e">
+  <title>D'Or | Boulangerie-pâtisserie à Havré</title>
+  <meta name="description" content="Découvrez la Boulangerie-pâtisserie D'Or à Havré : pains, viennoiseries, pâtisseries et gâteaux personnalisés. Chaussée du Roeulx 1205. 0484 52 84 73.">
+  <link rel="icon" href="assets/logo-dor-or.png">
+  
+  <link rel="stylesheet" href="assets/leaflet.css">
+  <link rel="stylesheet" href="styles.css?v=5">
+  <script defer src="assets/leaflet.js"></script>
+  <script defer src="map.js?v=5"></script>
+  
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Bakery","name":"Boulangerie-pâtisserie D'Or","telephone":"+32484528473","address":{"@type":"PostalAddress","streetAddress":"Chaussée du Roeulx 1205","postalCode":"7021","addressLocality":"Havré (Mons)","addressCountry":"BE"},"geo":{"@type":"GeoCoordinates","latitude":50.4651293,"longitude":4.0487823},"sameAs":["https://www.facebook.com/Boulangerie.patisserie.dor"]}</script>
 </head>
 <body>
-  <div class="box">
-    <h1>Boulangerie-pâtisserie D'Or</h1>
-    <p>Emplacement réservé — la maquette du site sera publiée ici.</p>
-    <p><small>Maquette de présentation · page provisoire · non indexée</small></p>
-  </div>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <header class="header">
+    <a class="brand" href="#accueil" aria-label="D'Or, accueil"><img src="assets/logo-dor-or.png" width="60" height="60" alt="Logo Boulangerie Pâtisserie D’Or"><span>D'Or<small>Boulangerie · Pâtisserie</small></span></a>
+    <nav aria-label="Navigation principale"><a href="#specialites">Nos spécialités</a><a href="#gateaux">Gâteaux personnalisés</a><a href="#contact">Nous trouver</a></nav>
+    <a class="header-call" href="tel:+32484528473">Nous appeler</a>
+  </header>
+  <main id="contenu">
+    <section class="hero wrap" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">Artisan boulanger-pâtissier · Havré</p>
+        <h1 id="hero-title">D'Or,<br>boulangerie<br><em>à Havré.</em></h1>
+        <p class="intro">Pains, viennoiseries et pâtisseries, avec une production artisanale sur place, à Havré.</p>
+        <div class="actions"><a class="button" href="#specialites">Découvrir nos spécialités</a><a class="text-link" href="#contact">Venir à la boulangerie</a></div>
+      </div>
+      <div class="hero-print" aria-label="Boulangerie-pâtisserie D'Or, Havré"><span class="print-top">BOULANGERIE & PÂTISSERIE</span><img src="assets/logo-dor-or.png" width="720" height="719" alt="D’Or, logo doré aux épis de blé et au croissant"><div class="print-bottom"><span>Chaussée du Roeulx 1205</span><span>7021 Havré</span></div></div>
+      <div class="hero-foot"><span>Votre boulangerie à Havré, Mons</span><a href="https://www.google.com/maps?cid=4530316567498687973" class="google-link"><strong>4,8/5</strong><span>41 avis sur Google</span></a></div>
+    </section>
+    <section class="specialties wrap" id="specialites" aria-labelledby="specialties-title">
+      <div class="section-heading"><div><p class="eyebrow">À la boulangerie</p><h2 id="specialties-title">Du pain aux<br><em>pâtisseries.</em></h2></div><p>Les spécialités de D'Or à découvrir en boutique. Pour connaître les produits disponibles, appelez-nous.</p></div>
+      <div class="product-list">
+        <article><span class="number" aria-hidden="true">01</span><div><h3>Pains & viennoiseries</h3><p>Pains artisanaux et viennoiseries.</p></div><span class="category">Boulangerie</span></article>
+        <article><span class="number" aria-hidden="true">02</span><div><h3>Pâtisseries & tartes</h3><p>Éclairs au chocolat, tartelettes aux fraises, tarte chocolat-spéculoos et créations multi-fruits.</p></div><span class="category">Pâtisserie</span></article>
+        <article><span class="number" aria-hidden="true">03</span><div><h3>Gâteaux personnalisés</h3><p>Des gâteaux pour vos anniversaires et autres occasions.</p></div><a class="text-link" href="#gateaux">En savoir plus</a></article>
+      </div>
+    </section>
+    <section class="occasion" id="gateaux" aria-labelledby="occasion-title"><div class="wrap occasion-grid">
+      <figure><img src="assets/gateau-personnalise.jpg" width="804" height="1100" alt="Gâteau d’anniversaire D’Or, décor mauve, fleurs et photographie d’un cheval" loading="lazy"><figcaption>Gâteau d'anniversaire réalisé par D'Or.</figcaption></figure>
+      <div class="occasion-copy"><p class="eyebrow">Pour vos occasions</p><h2 id="occasion-title">Un gâteau pour<br><em>votre anniversaire.</em></h2><p>Nous réalisons des gâteaux personnalisés pour vos anniversaires. Contactez la boulangerie pour choisir la décoration et le nombre de parts.</p><p>Appelez pour discuter de votre idée, du prix et du délai de réalisation.</p><a class="button light" href="tel:+32484528473">Parler de mon gâteau</a><a class="social-link" href="https://www.facebook.com/Boulangerie.patisserie.dor/photos">Voir les réalisations sur Facebook</a></div>
+    </div></section>
+    <section class="reviews wrap" aria-labelledby="reviews-title"><div class="review-heading"><p class="eyebrow">Les mots des clients</p><h2 id="reviews-title">Les avis<br><em>de nos clients.</em></h2><p><strong>4,8/5</strong> · 41 avis sur Google</p><a class="text-link" href="https://www.google.com/maps?cid=4530316567498687973">Lire les avis Google</a></div><div class="quotes"><figure><blockquote>« Les croissants sont à tomber ! Tellement bons, légers, croustillants et avec le vrai goût d'antan. »</blockquote><figcaption>Sabine Vmos <span>Extrait d'un avis Google · 5/5</span></figcaption></figure><figure><blockquote>« Superbe boulangerie, patron très gentil. »</blockquote><figcaption>Adri Pilato <span>Extrait d'un avis Google · 5/5</span></figcaption></figure><p class="review-date">Note et avis consultés le 25 septembre 2026.</p></div></section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">À bientôt à Havré</p><h2 id="contact-title">Passez nous <em>voir.</em></h2></div><a class="button" href="tel:+32484528473">Appeler le 0484 52 84 73</a></div><div class="contact-grid"><div class="address"><h3>Boulangerie-pâtisserie D'Or</h3><address>Chaussée du Roeulx 1205<br>7021 Havré, Mons</address><a class="text-link" href="https://www.google.com/maps/dir/?api=1&destination=50.4651293%2C4.0487823">Préparer mon itinéraire</a><div class="contact-note"><p>Une question avant de venir ?</p><a href="tel:+32484528473">0484 52 84 73</a><a href="https://www.facebook.com/Boulangerie.patisserie.dor">Retrouvez-nous sur Facebook</a></div><p class="second-address">Également à Haine-Saint-Pierre<br><span>Chaussée de Mons 29, 7100 La Louvière</span></p></div><div class="map"><div id="location-map" role="region" aria-label="Carte interactive : Boulangerie-pâtisserie D’Or à Havré"><p class="map-loading">Chargement de la carte…</p></div><p class="map-fallback"><a href="https://www.google.com/maps?cid=4530316567498687973">Voir cette adresse sur Google Maps</a></p></div></div></div></section>
+  </main>
+  <footer><div class="wrap footer-top"><span class="footer-name">D'Or<small>Boulangerie · Pâtisserie</small></span><p>Première version, à ajuster.<br><span>Maquette de présentation.</span></p><span>Site réalisé par William Prové</span></div></footer>
 </body>
 </html>
